@@ -8,7 +8,9 @@ class AppTest {
 
 	@Test
 	void test() {
-		fail("Not yet implemented");
+		// FIXME: dummy test for testing jacoco/surefire integration only
+		App.main(null);
+		assertTrue(true);
 	}
 
 }
