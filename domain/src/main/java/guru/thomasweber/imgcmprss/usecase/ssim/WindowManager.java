@@ -1,4 +1,4 @@
-package guru.thomasweber.imgcmprss.shaded.jssim;
+package guru.thomasweber.imgcmprss.usecase.ssim;
 
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
@@ -85,15 +85,15 @@ class WindowManager {
 		return this.windowContainer;
 	}
 
-	public static class WindowContainer implements Iterable<Pair<Window>> {
+	static class WindowContainer implements Iterable<Pair<Window>> {
 
 		private final Collection<Window> primary;
 		private final Collection<Window> secondary;
 
-		private WindowContainer(final Collection<Window> primary,
+		WindowContainer(final Collection<Window> primary,
 				final Collection<Window> secondary) throws SsimException {
 			if (primary.size() != secondary.size()) {
-				throw new SsimException("");
+				throw new SsimException("Sizes of window collections must match");
 			}
 
 			this.primary = primary;

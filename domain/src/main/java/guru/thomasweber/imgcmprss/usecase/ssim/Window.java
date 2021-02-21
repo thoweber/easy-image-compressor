@@ -1,4 +1,4 @@
-package guru.thomasweber.imgcmprss.shaded.jssim;
+package guru.thomasweber.imgcmprss.usecase.ssim;
 
 import java.awt.image.BufferedImage;
 

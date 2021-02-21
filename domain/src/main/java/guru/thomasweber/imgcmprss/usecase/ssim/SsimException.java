@@ -1,4 +1,4 @@
-package guru.thomasweber.imgcmprss.shaded.jssim;
+package guru.thomasweber.imgcmprss.usecase.ssim;
 
 public class SsimException extends Exception
 {
