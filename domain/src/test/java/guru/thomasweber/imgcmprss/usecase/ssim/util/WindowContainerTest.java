@@ -1,4 +1,4 @@
-package guru.thomasweber.imgcmprss.usecase.ssim;
+package guru.thomasweber.imgcmprss.usecase.ssim.util;
 
 import static org.junit.jupiter.api.Assertions.*;
 import java.util.Arrays;
@@ -9,8 +9,6 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-
-import guru.thomasweber.imgcmprss.usecase.ssim.WindowManager.WindowContainer;
 
 @ExtendWith(MockitoExtension.class)
 class WindowContainerTest {
@@ -24,13 +22,13 @@ class WindowContainerTest {
 		Collection<Window> windows2 = Arrays.asList(window, window);
 		Collection<Window> windows3 = Arrays.asList(window, window, window);
 		// when/then
-		assertThrows(SsimException.class, () -> {
+		assertThrows(IllegalArgumentException.class, () -> {
 			new WindowContainer(windows2, windows3);
 		});
 	}
 
 	@Test
-	void test_WindowContainer_returns_an_Iterator_with_correct_pairs() throws SsimException {
+	void test_WindowContainer_returns_an_Iterator_with_correct_pairs() {
 		// given
 		Collection<Window> windowsA = Arrays.asList(window, window);
 		Collection<Window> windowsB = Arrays.asList(window, window);

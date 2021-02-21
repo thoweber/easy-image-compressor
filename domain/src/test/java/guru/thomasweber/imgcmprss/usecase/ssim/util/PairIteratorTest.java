@@ -1,4 +1,4 @@
-package guru.thomasweber.imgcmprss.usecase.ssim;
+package guru.thomasweber.imgcmprss.usecase.ssim.util;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -7,6 +7,9 @@ import java.util.Collections;
 import java.util.List;
 
 import org.junit.jupiter.api.Test;
+
+import guru.thomasweber.imgcmprss.usecase.ssim.util.Pair;
+import guru.thomasweber.imgcmprss.usecase.ssim.util.PairIterator;
 
 class PairIteratorTest {
 

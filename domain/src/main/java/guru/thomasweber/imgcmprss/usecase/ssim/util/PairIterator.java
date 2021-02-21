@@ -1,4 +1,4 @@
-package guru.thomasweber.imgcmprss.usecase.ssim;
+package guru.thomasweber.imgcmprss.usecase.ssim.util;
 
 import java.util.Collection;
 import java.util.Iterator;
