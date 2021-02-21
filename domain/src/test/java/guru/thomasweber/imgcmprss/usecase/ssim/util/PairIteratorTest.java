@@ -8,9 +8,6 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
-import guru.thomasweber.imgcmprss.usecase.ssim.util.Pair;
-import guru.thomasweber.imgcmprss.usecase.ssim.util.PairIterator;
-
 class PairIteratorTest {
 
 	@Test

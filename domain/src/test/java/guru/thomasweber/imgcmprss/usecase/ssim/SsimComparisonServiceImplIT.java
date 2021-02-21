@@ -21,7 +21,7 @@ class SsimComparisonServiceImplIT {
 		// when
 		final double ssimScore = service.compare(referenceImage, compareImage);
 		// then
-		assertEquals(0.9835149041355353, ssimScore);
+		assertEquals(0.9872483263539891, ssimScore);
 	}
 	
 }

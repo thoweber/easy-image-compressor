@@ -21,8 +21,8 @@ class SsimCalculatorIT {
 		// when
 		double result8 = calculator.similarityScore(referenceImage, compareImage, 8);
 		double result16 = calculator.similarityScore(referenceImage, compareImage, 16);
-		assertEquals(0.9812371527632519, result8);
-		assertEquals(0.9903481582523859, result16);
+		assertEquals(0.9858300283297764, result8);
+		assertEquals(0.9915032204266269, result16);
 	}
 
 	@Test

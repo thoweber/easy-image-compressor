@@ -29,8 +29,6 @@ final class SsimCalculatorImpl implements SsimCalculator {
 	public double similarityScore(final BufferedImage referenceImage, final BufferedImage compImage,
 			final int winSize) {
 
-		final WindowManager manager = new WindowManager(referenceImage, compImage, winSize);
-
 		final int[] size = referenceImage.getColorModel().getComponentSize();
 		final long L = (long) pow(2, size[0]) - 1;
 		final double c1 = pow((K1 * L), 2);
@@ -39,7 +37,7 @@ final class SsimCalculatorImpl implements SsimCalculator {
 		int numWindows = 0;
 		double mssim = 0.0f;
 
-		final Iterator<Pair<Window>> iterator = manager.getWindowContainer().iterator();
+		final Iterator<Pair<Window>> iterator = WindowPairIteratorFactory.of(referenceImage, compImage, winSize);
 
 		// calculate ssim for each window
 		while (iterator.hasNext()) {
