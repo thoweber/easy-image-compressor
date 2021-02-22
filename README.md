@@ -1,4 +1,4 @@
-# E|O - the easy image compressor
+# E|C - the easy image compressor
 *A don't make me think image compressor.*
 
 ![build status](https://github.com/thoweber/easy-image-compressor/actions/workflows/maven.yml/badge.svg)
