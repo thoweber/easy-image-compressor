@@ -112,26 +112,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			<!-- Aggregate report disabled see https://github.com/hcoles/pitest/issues/622 -->
-<!-- 			<plugin> -->
-<!-- 				<groupId>org.pitest</groupId> -->
-<!-- 				<artifactId>pitest-maven</artifactId> -->
-<!-- 				<executions> -->
-<!-- 					<execution> -->
-<!-- 						<id>pitest-mutation-coverage</id> -->
-<!-- 						<phase>none</phase> -->
-<!-- 						<goals> -->
-<!-- 							<goal>mutationCoverage</goal> -->
-<!-- 						</goals> -->
-<!-- 					</execution> -->
-<!-- 					<execution> -->
-<!-- 						<id>mutation-report-aggregate</id> -->
-<!-- 						<goals> -->
-<!-- 							<goal>report-aggregate</goal> -->
-<!-- 						</goals> -->
-<!-- 					</execution> -->
-<!-- 				</executions> -->
-<!-- 			</plugin> -->
+			<!-- Aggregate PIT report disabled see https://github.com/hcoles/pitest/issues/622 -->
 		</plugins>
 	</build>
 
