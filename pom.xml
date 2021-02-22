@@ -132,7 +132,6 @@
 							<param>XML</param>
 							<param>HTML</param>
 						</outputFormats>
-						<verbose>true</verbose>
 					</configuration>
 				</plugin>
 			</plugins>
