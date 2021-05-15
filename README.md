@@ -1,4 +1,4 @@
-# E|C - the easy image compressor
+# E|C - the easy image compressor 
 *A don't make me think image compressor.*
 
 ![build status](https://github.com/thoweber/easy-image-compressor/actions/workflows/maven.yml/badge.svg) 
@@ -6,12 +6,12 @@
 
 
 
-## Acknowledgements
+## 👏Acknowledgements
 The Structural Similarity code is based on the work of https://github.com/rhys-e/structural-similarity.
 
-### Included Open Source software
+### 💻Included Open Source software
 
-#### The JPEG optimizers module
+#### JPEG optimizers module
 
 * Binary release of Mozilla JPEG Encoder Project in
   [`optimizer-jpeg/src/main/resources/vendor/mozjpeg`](optimizer-jpeg/src/main/resources/vendor/mozjpeg)
