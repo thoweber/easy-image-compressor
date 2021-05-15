@@ -9,7 +9,7 @@ public enum ImageFormat {
 	private ImageFormat(String mimeType) {
 		this.mimeType = mimeType;
 	}
-
+	
 	public static ImageFormat ofMimeType(String mt) {
 		if (mt == null) {
 			throw new IllegalArgumentException("The given MIME type must not be null");
