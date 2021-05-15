@@ -20,6 +20,7 @@
 
 	<modules>
 		<module>domain</module>
+		<module>optimizer-jpeg</module>
 		<module>reporting</module>
 	</modules>
 

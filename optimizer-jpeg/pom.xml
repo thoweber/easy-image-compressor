@@ -9,12 +9,18 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>easy-image-compressor-domain</artifactId>
+	<artifactId>easy-image-compressor-optimizer-jpeg</artifactId>
 	<packaging>jar</packaging>
-	<name>domain</name>
+	<name>optimizer-jpeg</name>
 
 
 	<dependencies>
+		<dependency>
+			<groupId>guru.thomasweber.imgcmprss</groupId>
+			<artifactId>easy-image-compressor-domain</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
